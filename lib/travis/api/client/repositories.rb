@@ -142,16 +142,16 @@ module Travis
       private
 
         # API Path template for a repository
-        REPOSITORY_PATH        = '/:owner/:name.:format'
+        REPOSITORY_PATH        = '/repositories/:owner/:name.:format'
 
         # API Path template for the repository listing
         REPOSITORIES_PATH      = '/repositories.:format'
 
         # API Path template for a repository build
-        REPOSITORY_BUILD_PATH  = '/:owner/:name/builds/:build_id.:format'
+        REPOSITORY_BUILD_PATH  = '/repositories/:owner/:name/builds/:build_id.:format'
        
         # API Path template for the repository build listing
-        REPOSITORY_BUILDS_PATH = '/:owner/:name/builds.:format'
+        REPOSITORY_BUILDS_PATH = '/repositories/:owner/:name/builds.:format'
 
         # Cached repositories
         # @return [Array<Entity::Repository>, NilClass] 

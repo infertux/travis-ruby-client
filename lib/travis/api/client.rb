@@ -36,7 +36,7 @@ module Travis
     private
        
       # Client default host
-      API_HOST = 'http://travis-ci.org'
+      API_HOST = 'https://api.travis-ci.org'
 
       # Response default format
       DEFAULT_FORMAT = 'json'
